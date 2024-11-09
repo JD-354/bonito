@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: blue;
+    background-image:url(./canser\ r1.jpeg);
+    background-repeat: no-repeat;
+    background:#1a2 #101010;
+    height:100vh;
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+}
+.targeta{
+    background-color:blue ;
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    padding: 30px;
+}
+.perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.enlaces a{
+    display: block;
+    background-color: blanchedalmond;
+    color: blue;
+    text-decoration: none;
+    transition: background-color 0.3;
+}
+
+.enlaces a:hover{
+    background-color: blue;
+}
+
